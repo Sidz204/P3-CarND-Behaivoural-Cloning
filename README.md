@@ -1,4 +1,4 @@
-# P3-CarND-Behaivoural-Cloning
+# CarND Behaivoural Cloning Project
 
 ### Overview
 
