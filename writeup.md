@@ -88,20 +88,36 @@ The final model architecture (model.py lines 18-24) consisted of a convolution n
 
 Here is a visualization of the architecture
 
+![architecture](/images/model_arch1.jpg)
+
 
 
 #### 3. Creation of the Training Set & Training Process
 
 I have used Udacity sample driving data. I also included left and right camera images along with center camera images . Here is an example image of center lane driving and also left and right camera images:
 
-![alt text][image2]
+Centre:
+
+![center](/images/center.jpg)
+
+
+
+Left :
+
+![left](/images/left.jpg)
+
+
+
+Right:
+
+![right](/images/right.jpg)
 
 
 
 To augment the data set, I also flipped images and angles thinking that this would help generalize the model so that it will not always inclined towards left or right . For example, here is an image that has then been flipped:
 
-![alt text][image6]
-![alt text][image7]
+![original](/images/original.png)
+![flipped](/images/flipped.png)
 
 
 After the collection process, I had nearly 35000 images data. I then preprocessed this data by using Lambda layer and Cropping layer. 
