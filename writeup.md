@@ -88,7 +88,7 @@ The final model architecture (model.py lines 18-24) consisted of a convolution n
 
 Here is a visualization of the architecture
 
-![architecture](/images/model_arch1.jpg)
+![architecture](/images/model_arch1.JPG)
 
 
 
